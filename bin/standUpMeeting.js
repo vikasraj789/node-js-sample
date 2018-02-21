@@ -5,7 +5,6 @@ var pusher = new PushBullet('o.oQTUaHkuQOTNCm016FR6otSRXIYX3XsE');
 var myFunc = function () {
   pusher.devices((err, res) => {
     if (res) {
-      console.log(res)
       var devices = res.devices;
       var deviceIds = [];
       devices.forEach(function (device) {
