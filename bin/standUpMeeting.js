@@ -9,6 +9,7 @@ var myFunc = function () {
       var deviceIds = [];
       devices.forEach(function (device) {
         pusher.note(device.iden, 'Meeting in few minutes', 'Stand up meeting', function (err, res) {
+          process.exit();
         })
       });
     }
@@ -18,4 +19,3 @@ var myFunc = function () {
   });
 };
 myFunc();
-process.exit();
