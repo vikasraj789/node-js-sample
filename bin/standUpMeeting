@@ -1,4 +1,4 @@
-#! /app/.heroku/node/bin/node node
+#! /app/.heroku/node/bin/node
 var PushBullet = require('pushbullet');
 var pusher = new PushBullet('o.oQTUaHkuQOTNCm016FR6otSRXIYX3XsE');
 
