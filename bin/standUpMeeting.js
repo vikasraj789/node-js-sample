@@ -18,4 +18,5 @@ var myFunc = function () {
     }
   });
 };
+console.log('hello')
 myFunc();
